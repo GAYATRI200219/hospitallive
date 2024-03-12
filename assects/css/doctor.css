@@ -1,0 +1,74 @@
+.section_7_carasule_container{ margin-bottom: 50px;}
+ .carousel_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+   }
+   .company_carousel_card {text-align: center;  margin-bottom: 10px; box-sizing: border-box;}
+   .company_carousel_text p{font-size: 14px; font-weight: 400; padding: 40px 0px;}
+   .for_company_carousel_img{width: 60px;height: 60px; border-radius: 50%;  background-color:white;}
+   .for_company_carousel_img img{width: 100%;height: 100%; border-radius: 50%;}
+   .for_company_carousel_img{width: 60px;height: 60px; border-radius: 50%;  background-color:white;}
+
+   .owl-dots{
+    text-align: center;
+    margin-top: 30px;
+   }
+   .h4_tag_for_company_carousel_last h4{font-weight: 600;}
+   .owl-dot{
+    height: 8px;
+    width: 35px;
+    border-radius: 25px;
+    border: 2px solid #13c5dd!important;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3 ease;
+   }
+   .owl-dot:hover,.owl-dot.active{
+    background:#13c5dd!important;
+    width: 45px;
+   }
+
+   .img-content{top:0;left: 5px;}
+   .carausel_image{background-image: url(../img/blog-1.jpg);height:200px;background-size: cover;opacity: 0.9;background-blend-mode: multiply;background-color:rgba(29, 42, 77, .8);width:100%;}
+   .carausel_image h4{text-align: center;}
+   .caruse_border_rad{border-radius: 9px;background-color: #dfeaf1}
+   .caruse_border_rad1{border-top-left-radius: 9px; border-top-right-radius: 9px;}
+
+
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+/* Make the image to responsive */
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.container:hover .overlay {
+  opacity: 1;
+}
